@@ -1,6 +1,7 @@
 # Install first dependencies 
 #pip install opencv-python dlib pygame
 # Make sure all the necessary files are all in the same directory
+# Download the shape predictor here:https://github.com/italojs/facial-landmarks-recognition/blob/master/shape_predictor_68_face_landmarks.dat 
 
 # import necessary libraries
 import cv2
