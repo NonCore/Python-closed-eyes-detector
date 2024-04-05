@@ -23,11 +23,13 @@ To use the script, follow these steps:
 
 -Download the shape predictor file from this link: https://github.com/italojs/facial-landmarks-recognition/blob/master/shape_predictor_68_face_landmarks.dat
 
--Place the shape predictor file in the same directory as the script.
+-Download audio of choice and name as alarm.mp3
+
+-Place the shape predictor file and audio file in the same directory as the script.
 
 -Run the script using the following command:
 
-	python facial_landmarks.py
+	python 'filename'.py
 
 -The script will open a window displaying the video feed from your webcam. It will detect faces and facial landmarks, and it will play an alarm sound when the eyes are closed for a certain period of time.
 
